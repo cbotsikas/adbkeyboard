@@ -1,0 +1,17 @@
+{ "name" : "adbkeyboard"
+, "version" : "0.1.0"
+, "author" : "Christos Botsikas"
+, "description" : "A javascript adb keyboard"
+, "dependencies" :
+  { "exec-sync" : "*"
+  , "keypress" : "*"
+  }
+, "engines":
+  { "node": ">= 0.6.0"
+  , "npm": ">= 1.1.17"
+  }
+, "preferGlobal": true
+, "bin":
+  { "adbkeyboard": "main.js"
+  }
+}
